@@ -37,3 +37,5 @@ tmux new -s sshbrute
 
 # or if you run it in the existing session just use this command when you are in the folder that the script is there.
 ./ssh_brute.py target_ip_address username password_length --lower --upper --digits --special '!@#$'
+
+# to stop the code gracefully just use "ctrl + C"
